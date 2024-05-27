@@ -20,7 +20,7 @@ for j in range(17, 28):
     if j == 24:
         continue
 
-    factor_name = df.columns[j].strip(' [ mgkg ]')    # 获取对应列列名
+    factor_name = df.columns[j].strip(' [ mgkg ]')      # 获取对应列列名
 
     # 排除带有字符串（数据异常）的行
     rows_to_exclude = df[df.iloc[:, j].apply(lambda x: isinstance(x, str))].index
