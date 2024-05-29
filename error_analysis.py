@@ -49,7 +49,7 @@ for j in range(17, 28):
     slope = linear_regression(X, y)[4]        # 线性模型的斜率
     # print(intercept, slope)
 
-    # 这里的101是我把数据分成了100+1 份，如果是10分就改成11，以此类比
+    # 这里101是我把数据分成了100+1 份，如果是10分就改成11，以此类比
     co = np.zeros((group_num, 8))
 
     remove = []             # 创建空列表，记录不能进行岭回归的分组序号

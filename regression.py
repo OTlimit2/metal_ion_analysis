@@ -51,7 +51,7 @@ def ridge_regression(X, y):
     # 回归误差图
     # # 创建散点图
     # plt.figure(figsize=(8, 8))  # 将图制作成方形
-    # plt.scatter(y_test, y_pred, alpha=0.8, color='red')  # 提高点的亮度和改变颜色
+    # plt.scatter(y_test, y_pred, alpha=0.8, color='red')  # 提高点的亮度和改变 颜色
     # # plt.scatter(y, y_pred, alpha=0.8, color='red')  # 提高点的亮度和改变颜色
     # # plt.scatter(y_train, y_train_pred, alpha=0.8, color='blue')
     # plt.xlabel("实际值", fontsize=14)  # 增加坐标轴标签的字体大小

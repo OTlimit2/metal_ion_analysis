@@ -14,7 +14,7 @@ df = pd.read_excel(excel_file_path, sheet_name=2)
 cd_type = ['土壤有效态Cd', '土壤中Cd', '根系中Cd', '水稻中Cd']
 
 
-# 通过把tmpkk赋值不同的理化性质，用来选择作为控制的特征，例如铁/阳离子
+# 通过把tmpkk赋值不同的理化性质，用来选择作为控制的特征，例如铁或者阳离子
 
 for j in range(17, 28):
     factor_name = df.columns[j].strip(' [ mgkg ]')    # 获取对应列列名
